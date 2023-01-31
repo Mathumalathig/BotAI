@@ -90,7 +90,7 @@ const handleSubmit = async (e) => {
 
   // fetch the data from the server -> bot responce
 
-  const responce = await fetch('https://codex-ai-z6r6.onrender.com', {
+  const responce = await fetch('http://localhost:5050/', {
     method : 'POST',
     headers : {
       'Content-Type' : 'application/json'

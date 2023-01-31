@@ -50,4 +50,4 @@ app.post('/', async (req, res) => {
     }
 })
 
-app.listen(4000, () => console.log('Server is Running on the port http://localhost:4000'));
+app.listen(5050, () => console.log('Server is Running on the port http://localhost:5050'));
